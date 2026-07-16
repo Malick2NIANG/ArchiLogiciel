@@ -1,0 +1,146 @@
+/* MGLSI News - Feuille de style
+   Palette inspirée du drapeau du Sénégal :
+   vert #00753a | jaune #fcd116 | rouge #ce1126 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f7f7f2;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* En-tête */
+header {
+    background: #00753a;
+    color: #fff;
+    padding: 25px 20px 15px;
+    text-align: center;
+    border-bottom: 4px solid #fcd116;
+}
+
+header h1 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+.slogan {
+    font-style: italic;
+    color: #fcd116;
+    margin-bottom: 15px;
+}
+
+/* Navigation catégories */
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 16px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    transition: background 0.2s, color 0.2s;
+}
+
+nav a:hover,
+nav a.actif {
+    background: #fcd116;
+    color: #00532a;
+    font-weight: 600;
+}
+
+/* Contenu principal */
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+.carte,
+.detail {
+    background: #fff;
+    border-radius: 8px;
+    border-left: 4px solid #00753a;
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.badge {
+    display: inline-block;
+    background: #ce1126;
+    color: #fff;
+    font-size: 0.75rem;
+    padding: 3px 12px;
+    border-radius: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+
+.carte h2 a {
+    color: #00532a;
+    text-decoration: none;
+}
+
+.carte h2 a:hover {
+    color: #00753a;
+    text-decoration: underline;
+}
+
+.date {
+    color: #7f8c8d;
+    font-size: 0.85rem;
+    margin: 5px 0 12px;
+}
+
+.extrait {
+    color: #444;
+}
+
+.lire-plus,
+.retour {
+    display: inline-block;
+    margin-top: 12px;
+    color: #ce1126;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.lire-plus:hover,
+.retour:hover {
+    text-decoration: underline;
+}
+
+.detail .contenu {
+    margin-top: 15px;
+    text-align: justify;
+}
+
+.vide {
+    text-align: center;
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    border-left: 4px solid #fcd116;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #00532a;
+    color: #fcd116;
+    font-size: 0.85rem;
+    margin-top: 30px;
+}
