@@ -1,0 +1,6 @@
+# Dossiers sources locaux (chaque version vit dans sa branche)
+mglsi_news_v1/
+mglsi_news_v2_mvc/
+
+# Scripts utilitaires
+*.bat
